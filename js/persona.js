@@ -9,7 +9,7 @@ class Persona{
         this.genero = genero
         this.estadoCivil = estadoCivil
     }
-    
+
     imprimirDatos(){
         console.log("++ Datos de la persons ++");
         console.log(`Identificacion --> ${this.identificacion}`);
@@ -18,7 +18,7 @@ class Persona{
         console.log(`Edad --> ${this.edad}`);
         console.log(`Genero --> ${this.genero}`);
         console.log(`Estado civil --> ${this.estadoCivil}`);
-        console.log(`---------------------------------------> ${}`);
+        console.log(`--------------------------------------->`);
     }
     cambiarEdad(nuevaEdad){
         this.edad=nuevaEdad
