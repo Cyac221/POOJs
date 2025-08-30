@@ -9,6 +9,7 @@ class Persona{
         this.genero = genero
         this.estadoCivil = estadoCivil
     }
+    
     imprimirDatos(){
         console.log("++ Datos de la persons ++");
         console.log(`Identificacion --> ${this.identificacion}`);
@@ -24,3 +25,5 @@ class Persona{
 
     }
 }
+
+export default Persona
