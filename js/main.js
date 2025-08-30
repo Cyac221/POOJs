@@ -14,3 +14,10 @@ console.log("----------------------------------------");
 console.log("Identificacion: "+ juniorTuPapa.identificacion);
 console.log("Nombre: "+ juniorTuPapa.nombre);
 console.log("Apellidos: "+ juniorTuPapa.apellido);
+
+
+
+console.log("-----------------------------------------");
+juniorTuPapa.cambiarEdad(995)
+
+juniorTuPapa.imprimirDatos()
